@@ -1,0 +1,8 @@
+Why is a backend necessary for a website?
+    We require a backend for a website due to several crucial reasons. Firstly, it is not advisable to expose sensitive information or data, 
+    such as credentials and passwords, on the client-side of the browser. To ensure security, this sensitive data must be stored and 
+    handled on the server-side.
+
+    Furthermore, accessing certain data or functionalities may require authorization or authentication. The user needs specific keys or credentials, 
+    and these are verified against server-side keys. Only when the user's key matches the corresponding server-side key will the required data be provided. 
+    For instance, when logging into Instagram, only you, as the authenticated user, can view your private chats, ensuring privacy and data protection.
