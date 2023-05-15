@@ -6,3 +6,32 @@ Why is a backend necessary for a website?
     Furthermore, accessing certain data or functionalities may require authorization or authentication. The user needs specific keys or credentials, 
     and these are verified against server-side keys. Only when the user's key matches the corresponding server-side key will the required data be provided. 
     For instance, when logging into Instagram, only you, as the authenticated user, can view your private chats, ensuring privacy and data protection.
+
+ExpressJS is needed for server side and endpoints
+
+Why do we need gitignore?
+    gitignore files stores the name of the files that you don't want to include while uploading to github 
+
+What is Object Data Mapping(ODM)?
+    Object-Document Mapping (ODM) is a technique used to map objects from an object-oriented programming language (like JavaScript) to documents 
+    in a document-oriented database, such as MongoDB. 
+
+async and await
+    The async keyword is used to define an asynchronous function. When a function is marked as async, it automatically returns a Promise. Inside 
+    an async function, you can use the await keyword to pause the execution of the function until a Promise is resolved or rejected. The await 
+    keyword can only be used inside an async function.
+
+What are Promises?
+    A Promise is an object in JavaScript that represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+     It is commonly used for handling asynchronous operations such as making network requests, reading files, or executing time-consuming tasks.
+
+    A Promise can be in one of three states:
+
+        Pending: The initial state of a Promise. It is neither fulfilled nor rejected. Asynchronous operations are ongoing, and the Promise is 
+        waiting for the operation to complete.
+
+        Fulfilled: The state of a Promise when the asynchronous operation completes successfully. The Promise transitions to the fulfilled state, 
+        and the associated value (result of the operation) becomes available.
+
+        Rejected: The state of a Promise when an error occurs during the asynchronous operation. The Promise transitions to the rejected state, 
+        and the reason for the rejection (an error object) is provided.
