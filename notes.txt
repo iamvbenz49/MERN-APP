@@ -35,3 +35,7 @@ What are Promises?
 
         Rejected: The state of a Promise when an error occurs during the asynchronous operation. The Promise transitions to the rejected state, 
         and the reason for the rejection (an error object) is provided.
+
+what are Schema and Infertype?
+     Schema is the class provided by Mongoose to define the structure of MongoDB documents, and InferSchemaType is a utility that infers the 
+     TypeScript type based on a given Mongoose schema, providing type safety and synchronization between the schema and TypeScript types.
