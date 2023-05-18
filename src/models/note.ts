@@ -1,4 +1,4 @@
-import { InferSchemaType, Schema } from "mongoose"
+import { model,InferSchemaType, Schema } from "mongoose"
 
 const nodeSchema = new Schema({
     title:{type:String,required:true},
